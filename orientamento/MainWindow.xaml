@@ -7,10 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF91FFC3" Offset="0"/>
+                <GradientStop Color="#FFD6ACFF" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
         <TextBox x:Name="txtnumero1" HorizontalAlignment="Left" Height="43" Margin="110,123,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" IsReadOnly="True" Width="131" FontSize="20" FontWeight="Bold"/>
         <TextBox x:Name="txtnumero2" HorizontalAlignment="Left" Height="44" Margin="110,231,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" IsReadOnly="True" Width="131" FontSize="20" FontWeight="Bold"/>
         <TextBox x:Name="txtsomma" HorizontalAlignment="Left" Height="73" Margin="508,325,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" IsReadOnly="True" Width="166" FontSize="36" FontWeight="Bold"/>
-        <Label Content="Sum:" HorizontalAlignment="Left" Margin="244,325,0,0" VerticalAlignment="Top" Width="100" Height="58" FontSize="36" FontWeight="Bold"/>
+        <Label Content="Sum:" HorizontalAlignment="Left" Margin="384,340,0,0" VerticalAlignment="Top" Width="100" Height="58" FontSize="36" FontWeight="Bold"/>
         <Label Content="Number Generator" HorizontalAlignment="Left" Margin="65,34,0,0" VerticalAlignment="Top" Height="54" FontSize="24" FontWeight="Bold"/>
         <Label Content="Enabled" HorizontalAlignment="Left" Margin="574,34,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
         <Slider x:Name="sld1" HorizontalAlignment="Left" Margin="454,138,0,0" VerticalAlignment="Top" Width="259" ValueChanged="sld1_ValueChanged"/>
@@ -25,5 +31,15 @@
                 </TransformGroup>
             </CheckBox.RenderTransform>
         </CheckBox>
+        <Image Margin="91,281,529,-10" Source="numero.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.413"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
     </Grid>
 </Window>
