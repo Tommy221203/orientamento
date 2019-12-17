@@ -37,15 +37,27 @@ namespace orientamento
             int c = (int)sld2.Value;
             int somma = c + v;
             txtsomma.Text = somma.ToString();
+            int molt = c * v;
+            txtmoltiplicazione.Text = molt.ToString();
+            int sot = c - v;
+            txtsottrazione.Text = sot.ToString();
+            int div = c / v;
+            txtdivisione.Text = div.ToString();
         }
 
         private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            int b = (int)sld2.Value;
-            txtnumero2.Text = b.ToString();
+            int v = (int)sld2.Value;
+            txtnumero2.Text = v.ToString();
             int c = (int)sld1.Value;
-            int somma = c + b;
+            int somma = c + v;
             txtsomma.Text = somma.ToString();
+            int molt = c * v;
+            txtmoltiplicazione.Text = molt.ToString();
+            int sot = c - v;
+            txtsottrazione.Text = sot.ToString();
+            int div = c / v;
+            txtdivisione.Text = div.ToString();
         }
 
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
