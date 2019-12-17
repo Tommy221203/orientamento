@@ -41,8 +41,7 @@ namespace orientamento
             txtmoltiplicazione.Text = molt.ToString();
             int sot = c - v;
             txtsottrazione.Text = sot.ToString();
-            int div = c / v;
-            txtdivisione.Text = div.ToString();
+  
         }
 
         private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
@@ -56,8 +55,7 @@ namespace orientamento
             txtmoltiplicazione.Text = molt.ToString();
             int sot = c - v;
             txtsottrazione.Text = sot.ToString();
-            int div = c / v;
-            txtdivisione.Text = div.ToString();
+     
         }
 
         private void CheckBox_Checked(object sender, RoutedEventArgs e)

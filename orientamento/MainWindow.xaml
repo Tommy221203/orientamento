@@ -15,8 +15,8 @@
         </Grid.Background>
         <TextBox x:Name="txtnumero1" HorizontalAlignment="Left" Height="43" Margin="110,123,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" IsReadOnly="True" Width="131" FontSize="20" FontWeight="Bold"/>
         <TextBox x:Name="txtnumero2" HorizontalAlignment="Left" Height="44" Margin="110,231,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" IsReadOnly="True" Width="131" FontSize="20" FontWeight="Bold"/>
-        <TextBox x:Name="txtsomma" HorizontalAlignment="Left" Height="73" Margin="685,329,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" IsReadOnly="True" Width="87" FontSize="36" FontWeight="Bold"/>
-        <Label Content="Sum:" HorizontalAlignment="Left" Margin="580,325,0,0" VerticalAlignment="Top" Width="100" Height="73" FontSize="36" FontWeight="Bold" RenderTransformOrigin="2.14,0.759"/>
+        <TextBox x:Name="txtsomma" HorizontalAlignment="Left" Height="73" Margin="662,325,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" IsReadOnly="True" Width="87" FontSize="36" FontWeight="Bold"/>
+        <Label Content="Sum:" HorizontalAlignment="Left" Margin="557,325,0,0" VerticalAlignment="Top" Width="100" Height="73" FontSize="36" FontWeight="Bold" RenderTransformOrigin="2.14,0.759"/>
         <Label Content="Number Generator" HorizontalAlignment="Left" Margin="65,34,0,0" VerticalAlignment="Top" Height="54" FontSize="24" FontWeight="Bold"/>
         <Label Content="Enabled" HorizontalAlignment="Left" Margin="445,34,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
         <Slider IsEnabled="False" x:Name="sld1" HorizontalAlignment="Left" Margin="454,138,0,0" VerticalAlignment="Top" Width="259" ValueChanged="sld1_ValueChanged"/>
@@ -41,20 +41,9 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <TextBox x:Name="txtmoltiplicazione" HorizontalAlignment="Left" Height="77" Margin="474,325,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="86" FontSize="24" FontWeight="Bold"/>
-        <Label Content="Mlt:" HorizontalAlignment="Left" Height="69" Margin="393,329,0,0" VerticalAlignment="Top" Width="93" FontSize="36" FontWeight="Bold"/>
-        <TextBox x:Name="txtsottrazione" HorizontalAlignment="Left" Height="77" Margin="311,325,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="82" FontSize="36" FontWeight="Bold"/>
-        <Label Content="Sot:" HorizontalAlignment="Left" Height="69" Margin="230,329,0,0" VerticalAlignment="Top" Width="76" FontSize="36" FontWeight="Bold"/>
-        <TextBox x:Name="txtdivisione" HorizontalAlignment="Left" Height="77" Margin="126,325,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="84" FontSize="24" FontWeight="Bold"/>
-        <Label Content="Div:" HorizontalAlignment="Left" Height="73" Margin="37,325,0,0" VerticalAlignment="Top" Width="81" FontSize="36" FontWeight="Bold" RenderTransformOrigin="0.5,0.5">
-            <Label.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform AngleY="0.764"/>
-                    <RotateTransform/>
-                    <TranslateTransform Y="0.487"/>
-                </TransformGroup>
-            </Label.RenderTransform>
-        </Label>
+        <TextBox x:Name="txtmoltiplicazione" HorizontalAlignment="Left" Height="77" Margin="399,325,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="86" FontSize="24" FontWeight="Bold"/>
+        <Label Content="Mlt:" HorizontalAlignment="Left" Height="69" Margin="306,329,0,0" VerticalAlignment="Top" Width="93" FontSize="36" FontWeight="Bold"/>
+        <TextBox x:Name="txtsottrazione" HorizontalAlignment="Left" Height="77" Margin="138,325,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="82" FontSize="36" FontWeight="Bold"/>
+        <Label Content="Sot:" HorizontalAlignment="Left" Height="69" Margin="47,329,0,0" VerticalAlignment="Top" Width="76" FontSize="36" FontWeight="Bold"/>
     </Grid>
 </Window>
